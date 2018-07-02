@@ -5,7 +5,7 @@ author: "Laura"
 tags: documentation in-progress specs
 ---
 
-Writing detailed documentation is one of the most important aspects of software development. The documentation offered here aims to provide technical information on all aspects of the portal's development, as well as database integration and update. The complete documentation is constantly updated [here](#).
+Writing detailed documentation is one of the most important aspects of software development. The documentation offered here aims to provide technical information on all aspects of the portal's development, as well as database integration and update. The complete documentation is constantly updated [here]({{ site.baseurl }}/docs/docs-summary).
 
 ## Databases
 The UW Natural History Museums Council is comprised of five major museums, each one containing one or multiple collections, that may take advantage of one or more databasing solutions, some of which are being transitioned to different platforms. Currently, the following technologies are being used to manage specimen data:
