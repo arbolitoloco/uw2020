@@ -5,7 +5,7 @@ author: "Laura"
 permalink: /post-list/
 ---
 
-#Updates and thoughts
+# Updates and thoughts
 
 <div class="catalogue">
   {% for post in paginator.posts %}
