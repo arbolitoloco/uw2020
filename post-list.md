@@ -1,5 +1,5 @@
 ---
-layout: post-list
+layout: default
 title: "Posts"
 author: "Laura"
 permalink: /post-list/
