@@ -21,13 +21,13 @@
     <p>Milestones can be viewed here: <a href="https://github.com/arbolitoloco/uw2020/milestones">https://github.com/arbolitoloco/uw2020/milestones</a></p>
 
     <div class="catalogue">
-      # Updates and Thoughts
+      <h1>Updates and Thoughts<h1>
 
       {% for post in paginator.posts %}
       <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
         <div>
           <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-          <h1 class="catalogue-title">{{ post.title }}</h1>
+          <h2 class="catalogue-title">{{ post.title }}</h2>
           <div class="catalogue-line"></div>
 
           <p>
