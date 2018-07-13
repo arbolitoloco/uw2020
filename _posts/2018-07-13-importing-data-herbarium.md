@@ -18,13 +18,13 @@ While accessing the database for a given Symbiota installation, if one wants to 
 - taxaenumtree: stores taxonomic hierarchy between taxa (taxa with their parent ids)
 
 A few queries that have been generated on the source database are listed:
-- [fib_genera.sql](#)
-- [fib_genera_with_parentid.sql]()
-- [fib_genera_ranks.sql]()
-- [fib_export_thesaurus_genera_parents.sql]()
-- [fib_species_or_lower.sql]()
-- [fib_species_with_parentid.sql]()
-- [fib_export_thesaurus_species_parents.sql]()
+- [fib_genera.sql](/sql/fib_genera.sql )
+- [fib_genera_with_parentid.sql](/sql/fib_genera_with_parentid.sql )
+- [fib_genera_ranks.sql](/sql/fib_genera_ranks.sql)
+- [fib_export_thesaurus_genera_parents.sql](/sql/fib_export_thesaurus_genera_parents.sql)
+- [fib_species_or_lower.sql](/sql/fib_species_or_lower.sql)
+- [fib_species_with_parentid.sql](/sql/fib_species_with_parentid.sql)
+- [fib_export_thesaurus_species_parents.sql](/sql/fib_export_thesaurus_species_parents.sql)
 
 The queries were then exported to .csv files, zipped, and imported into the prototype using the Batch Upload a Taxonomic Data File option in the Sitemap (which points to the ../taxa/admin/taxaloader.php page).
 
