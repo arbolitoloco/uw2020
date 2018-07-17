@@ -17,12 +17,11 @@
   </nav>
 
   <main>
-    <p>Tasks and progress can be viewed as a kanban board here: <a href="https://github.com/arbolitoloco/uw2020/projects/1">https://github.com/arbolitoloco/uw2020/projects/1</a></p>
-    <p>Milestones can be viewed here: <a href="https://github.com/arbolitoloco/uw2020/milestones">https://github.com/arbolitoloco/uw2020/milestones</a></p>
-    <p>When viewing tasks and milestones, be sure to check the "closed" link to see what has been completed.</p>
+    <p>Tasks and progress can be viewed as a kanban board <a href="https://github.com/arbolitoloco/uw2020/projects/1">here</a>. Milestones can be viewed <a href="https://github.com/arbolitoloco/uw2020/milestones">here</a>. When viewing tasks and milestones, be sure to check the "closed" link to see what has been completed.</p>
 
     <div class="catalogue">
-      <h1>Updates and Thoughts</h1>
+      <h1 class="post-title">Updates and Thoughts</h1>
+      <div class="post-line"></div>
 
       {% for post in paginator.posts %}
       <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
@@ -30,7 +29,6 @@
           <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
           <h2 class="catalogue-title">{{ post.title }}</h2>
           <div class="catalogue-line"></div>
-
           <p>
             {{ post.content | strip_html | truncatewords: 30 }}
           </p>
