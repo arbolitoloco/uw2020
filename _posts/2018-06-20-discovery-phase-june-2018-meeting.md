@@ -85,6 +85,23 @@ Preview available [here](http://fibonacci.math.wisc.edu/~rocha/mockup/). Coded w
 - [VertNet](http://vertnet.org/)
 - [Smithsonian Tropical Research Institute](http://stricollections.org/portal/collections/map/index.php)
 
+## Other topics
+
+- A list of Symbiota's available fields for the occurrence (specimen) tables has been discussed (it can be found [here]()). Each curator had previously talked about which data should be available, and apparently they can all fit in the Symbiota specimen model.
+- The possibility of having registered users from the general public (similar to what happens in the Wisconsin Flora portal) has been discussed. For now it has been decided that the only users that should be able to login on the portal are the curators and site admins.
+- The search screens have been discussed regarding their features to different publics. Brooke brought an example of a search performed at the Smithsonian Institution public database, using a vernacular (spiders) as a search term. I discussed the future possibility of incorporating Stratigraphy in the searches. I also suggested that we provide taxonomic trees for non-biological objects. 
+- It has been suggested that the searches should be improved, to include vernaculars and to provide better partial matches or wildcards in the live search. Search performance has to be tested to check if improvement is possible.
+- There should be an indicator of how dates can be searched for.
+- Taxon profiles are going to be available, whenever possible, only to higher level groups (i. e. Insects, Plants, Archeological Objects), because they are not available in all collections. In the case of the Herbarium, the taxonomic profile may be linked to their source in the Herbarium website.
+- Specimen tables should be available for download by users.
+- A disclaimer should be added about the status of collections' digitization (percentage of inventory digitized) and about data usage (a copyright policy must be picked by each collection). 
+- A button directing the user to a contact form should be available to users that would like to know more about a particular dataset. That contact form should deliver a message to the relevant curator.
+- Figure out how to track user information and usage, so that statistics on database usage can be generated and incorporated into future reports.
+- Map search should have shortcuts to search by higher taxon/object type. User has to be informed on usage of map search. A disclaimer should be added to inform users that not all specimens are georeferenced and therefore will not appear on maps.
+- The possibility of linking specimens has been considered (for instance hosts with parasites).
+
+
+
 ## Presentation
 
 Available as a PDF [here](docs/2018_06-UW2020-Meeting.pdf).
