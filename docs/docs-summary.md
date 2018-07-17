@@ -17,6 +17,7 @@ Following instructions found at [Symbiota's documentation](symbiota.org/docs/ins
 8. First empty portal successfully running!
 
 # Data Input/Import
+
 ## Taxa
 As per Symbiota documentation, the first step to establish a data portal is to import a general taxonomic thesaurus, so that specimens can be subsequently added to an existing taxonomic schema/tree.
 For biological collections, higher level taxonomic trees have been imported from ITIS.
@@ -31,6 +32,7 @@ Collections are taxa and museum-based, both for historical reasons and for purpo
 Specimens are stored in Symbiota as occurrences. The main table containing specimen information is called *fmoccurrences*. 
 
 # Front-End
+
 ## Base styles
 Base styles are implemented using Foundation framework by ZURB. Templating in Symbiota does not follow other PHP guidelines, as the head will change according to the page you are visiting, therefore styles and scripts are page-specific. To work around this, Foundation's styles have been added to the css folder and renamed as such:
 - foundation.css renamed to base.css
