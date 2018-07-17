@@ -75,10 +75,16 @@ Preview available [here](http://fibonacci.math.wisc.edu/~rocha/mockup/). Coded w
 
 ## Links mentioned
 
-- [Bell Atlas](http://bellatlas.umn.edu/imagelib/index.php): Symbiota portal
+- [Minnesota Biodiversity Atlas](http://bellatlas.umn.edu/imagelib/index.php): Symbiota portal
 - [Great Lakes Invasives](http://greatlakesinvasives.org/portal/): Symbiota portal
-- [British Museum](http://data.nhm.ac.uk/): CKAN portal
-- [Monarch](https://monarch.calacademy.org/)
-- [Berlin Museum](https://www.museumfuernaturkunde.berlin/de/forschung/sammlungen)
+- [Natural History Museum London](http://data.nhm.ac.uk/): CKAN portal
+- [California Academy of Sciences](https://monarch.calacademy.org/)
+- [Museum für Naturkunde Berlin](https://www.museumfuernaturkunde.berlin/de/forschung/sammlungen)
 - [Consortium of Northeastern Herbaria](http://portal.neherbaria.org/portal/checklists/checklist.php?cl=28) (two different kinds of maps; simple and advanced)
+- [Friends of the UMMP Michigan Basin Specimen](http://michiganbasinfossils.org/)
+- [VertNet](http://vertnet.org/)
+- [Smithsonian Tropical Research Institute](http://stricollections.org/portal/collections/map/index.php)
 
+## Presentation
+
+Available as a PDF [here](docs/2018_06-UW2020-Meeting.pdf).
