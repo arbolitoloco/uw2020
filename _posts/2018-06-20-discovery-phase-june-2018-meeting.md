@@ -4,6 +4,7 @@ title:  "Discovery phase: June 2018 meeting"
 author: "Laura"
 tags: done
 ---
+Closes issues [#1](arbolitoloco/uw2020/#1), [#2](arbolitoloco/uw2020/#2), [#3](arbolitoloco/uw2020/#3), and [#4](arbolitoloco/uw2020/#4)
 
 ## Meeting topics
 
@@ -80,3 +81,4 @@ Preview available [here](http://fibonacci.math.wisc.edu/~rocha/mockup/). Coded w
 - [Monarch](https://monarch.calacademy.org/)
 - [Berlin Museum](https://www.museumfuernaturkunde.berlin/de/forschung/sammlungen)
 - [Consortium of Northeastern Herbaria](http://portal.neherbaria.org/portal/checklists/checklist.php?cl=28) (two different kinds of maps; simple and advanced)
+
