@@ -4,7 +4,7 @@ title:  "Discovery phase: June 2018 meeting"
 author: "Laura"
 tags: done
 ---
-Closes issues [#1](./issues/1), [#2](./issues/2), [#3](./issues/3), and [#4](./issues/4)
+Closes issues [#1]({{ site.baseurl }}/issues/1), [#2]({{ site.baseurl }}/issues/2), [#3]({{ site.baseurl }}/issues/3), and [#4]({{ site.baseurl }}/issues/4)
 
 ## Meeting topics
 
