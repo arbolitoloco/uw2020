@@ -4,7 +4,7 @@ title:  "Discovery phase: June 2018 meeting"
 author: "Laura"
 tags: done
 ---
-Closes issues [#1](arbolitoloco/uw2020/issues/1), [#2](arbolitoloco/uw2020/issues/2), [#3](arbolitoloco/uw2020/issues/3), and [#4](arbolitoloco/uw2020/issues/4) #1
+Closes issues [#1](../issues/1), [#2](../issues/2), [#3](../issues/3), and [#4](../issues/4)
 
 ## Meeting topics
 
