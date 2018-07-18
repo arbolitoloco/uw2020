@@ -87,7 +87,7 @@ Preview available [here](http://fibonacci.math.wisc.edu/~rocha/mockup/). Coded w
 
 ## Other topics
 
-- A list of Symbiota's available fields for the occurrence (specimen) tables has been discussed (it can be found [here]()). Each curator had previously talked about which data should be available, and apparently they can all fit in the Symbiota specimen model.
+- A list of Symbiota's available fields for the occurrence (specimen) tables has been discussed (it can be found [here](https://github.com/arbolitoloco/docs/SymbiotaOccurrenceFields.pdf)). Each curator had previously talked about which data should be available, and apparently they can all fit in the Symbiota specimen model.
 - The possibility of having registered users from the general public (similar to what happens in the Wisconsin Flora portal) has been discussed. For now it has been decided that the only users that should be able to login on the portal are the curators and site admins.
 - The search screens have been discussed regarding their features to different publics. Brooke brought an example of a search performed at the Smithsonian Institution public database, using a vernacular (spiders) as a search term. I discussed the future possibility of incorporating Stratigraphy in the searches. I also suggested that we provide taxonomic trees for non-biological objects. 
 - It has been suggested that the searches should be improved, to include vernaculars and to provide better partial matches or wildcards in the live search. Search performance has to be tested to check if improvement is possible.
