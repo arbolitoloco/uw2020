@@ -6,7 +6,7 @@ permalink: /docs/docs-summary/
 ---
 
 # Symbiota Installation
-Following instructions found at [Symbiota's documentation](symbiota.org/docs/installation-instructions/) and some trial and error, this is the step-by-step to install a Symbiota portal:
+Following instructions found at [Symbiota's documentation](http://symbiota.org/docs/installation-instructions/) and some trial and error, this is the step-by-step to install a Symbiota portal:
 1. Prototype development started with [Symbiota version 1.0](https://github.com/Symbiota/Symbiota/releases) (cloned from Github 2018-05-11)
 2. Created MySQL database
 3. Added reader and writer users to database
@@ -24,6 +24,12 @@ For biological collections, higher level taxonomic trees have been imported from
 The Anthropology Museum curator has crafted a hierarchical classification of non-biological items, which has been imported into the general taxonomic thesaurus.
 A similar solution is expected to be provided to the non-biological specimens belonging to the Geology Museum.
 After a thesaurus is established, collection profiles can be generated and specimens then imported.
+Step-by-step guides are provided here:
+- How to import a Taxonomic Thesaurus - **coming soon**
+- How to import Vernaculars - **coming soon**
+Further insights can be checked in the prototype development journal here:
+- [Importing Existing Data: Herbarium](2018-07-13-importing-data-herbarium.md)
+- [Importing Vernaculars](2018-07-20-importing-vernaculars.md)
 
 ## Collections
 Collections are taxa and museum-based, both for historical reasons and for purposes of easier data updating and organizing. For instance, the Herbarium has five different collections: Bryophytes, Vascular Plants, Lichens, Fungi, and Vascular Non-Wisconsin Plants.
