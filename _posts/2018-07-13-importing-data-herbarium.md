@@ -2,7 +2,7 @@
 layout: post
 title:  "Importing Existing Data: Herbarium"
 author: "Laura"
-tags: in-progress
+tags: in-progress sql
 ---
 
 After deciding that we should start building the portal using the data from an existing Symbiota installation, I concentrated my efforts into importing the databases from the Herbarium into the prototype.
