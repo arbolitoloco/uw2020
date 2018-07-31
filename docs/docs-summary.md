@@ -27,6 +27,7 @@ After a thesaurus is established, collection profiles can be generated and speci
 Step-by-step guides are provided here:
 - How to import a Taxonomic Thesaurus - **coming soon**
 - How to import Vernaculars - **coming soon**
+
 Further insights can be checked in the prototype development journal here:
 - [Importing Existing Data: Herbarium](2018-07-13-importing-data-herbarium.md)
 - [Importing Vernaculars](2018-07-20-importing-vernaculars.md)
