@@ -8,19 +8,22 @@ permalink: /docs/docs-summary/
 # Symbiota Installation
 Following instructions found at [Symbiota's documentation](http://symbiota.org/docs/installation-instructions/) and some trial and error, this is the step-by-step to install a Symbiota portal:
 1. Prototype development started with [Symbiota version 1.0](https://github.com/Symbiota/Symbiota/releases) (cloned from Github 2018-05-11)
-2. Created MySQL database
-3. Added reader and writer users to database
-4. Imported schema update files to database from /config/schema-1.0
+2. Created empty MySQL database in PHPMyAdmin
+3. Added reader and writer users to database, giving them the adequate permissions to interact with the schema (in PHPMyAdmin)
+4. Imported schema update files to database from `/config/schema-1.0` (in PHPMyAdmin)
 5. Edited /config/dbconnection.php with database credentials
 6. Edited /config/symbini.php with general configurations, had issues with relative paths - fixed (pay attention to *$CLIENT_ROOT* path)
 7. Server admin granted user privileges
 8. First empty portal successfully running!
 
+Some issues may arise due to folder/file access configurations in the server, so one must be sure that the server admin has granted your reader and writer users the correct read/write permissions, otherwise some scripts will not be able to run (for instance the taxonomic tree import script).
+
+
 # Data Input/Import
 
 ## Taxa
 As per Symbiota documentation, the first step to establish a data portal is to import a general taxonomic thesaurus, so that specimens can be subsequently added to an existing taxonomic schema/tree.
-For biological collections, higher level taxonomic trees have been imported from ITIS.
+For biological collections, higher level taxonomic trees have been initially imported from ITIS. Additional thesauri have been imported from existing databases.
 The Anthropology Museum curator has crafted a hierarchical classification of non-biological items, which has been imported into the general taxonomic thesaurus.
 A similar solution is expected to be provided to the non-biological specimens belonging to the Geology Museum.
 After a thesaurus is established, collection profiles can be generated and specimens then imported.
@@ -29,8 +32,8 @@ Step-by-step guides are provided here:
 - How to import Vernaculars - **coming soon**
 
 Further insights can be checked in the prototype development journal here:
-- [Importing Existing Data: Herbarium](./_posts/2018-07-13-importing-data-herbarium.md)
-- [Importing Vernaculars](./_posts/2018-07-20-importing-vernaculars.md)
+- [Importing Existing Data: Herbarium](https://arbolitoloco.github.io/uw2020/2018-07-13-importing-data-herbarium.md)
+- [Importing Existing Data: Vernaculars](https://arbolitoloco.github.io/uw2020/2018-07-20-importing-vernaculars)
 
 ## Collections
 Collections are taxa and museum-based, both for historical reasons and for purposes of easier data updating and organizing. For instance, the Herbarium has five different collections: Bryophytes, Vascular Plants, Lichens, Fungi, and Vascular Non-Wisconsin Plants.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Importing Vernaculars"
+title:  "Importing Existing Data: Vernaculars"
 author: "Laura"
 tags: sql
 ---
