@@ -47,8 +47,8 @@ Specimens are stored in Symbiota as occurrences. The main table containing speci
 
 ## Base styles
 Base styles are implemented using Foundation framework by ZURB. Templating in Symbiota does not follow other PHP guidelines, as the head will change according to the page you are visiting, therefore styles and scripts are page-specific. To work around this, Foundation's styles have been added to the css folder and renamed as such:
-- foundation.css renamed to base.css
-- app.css renamed to main.css
+- `foundation.css` renamed to `base.css`
+- `app.css` renamed to `main.css`
 JavaScript will have to be added later for cross compatibility.
 
 # Features
@@ -67,10 +67,10 @@ Sometimes it can be hard to find the right information on Symbiota's official do
 - Establishing interaction between different database solutions and Symbiota: [Interoperability of Specimen Data](http://symbiota.org/docs/specimen-search-engine/interoperability-of-specimen-data/) 
 
 ## Specimens
-- [Specimen fields that can be imported into a Symbiota data portal](http://symbiota.org/docs/wp-content/uploads/SymbiotaOccurrenceFields.pdf) - **somewhat outdated, working on adding more details**
+- [Specimen fields that can be imported into a Symbiota data portal](http://symbiota.org/docs/wp-content/uploads/SymbiotaOccurrenceFields.pdf) - **somewhat outdated, needs more details**
 - [Specimen Upload Procedure](http://symbiota.org/docs/specimen-upload-procedure-2/) - good initial information for portal admins
 - [Loading Specimen Data](http://symbiota.org/docs/symbiota-introduction/loading-specimen-data/) - **working on adding more details, especially related to using the graphic interface and sql procedures**
-- [Batch Loading Specimen Images](http://symbiota.org/docs/batch-loading-specimen-images-2/) - **working on adding more details**
+- [Batch Loading Specimen Images](http://symbiota.org/docs/batch-loading-specimen-images-2/) - **needs more details**
 
 ## Images
 - [Image Library](http://symbiota.org/docs/image-library/)
