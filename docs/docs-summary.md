@@ -29,8 +29,8 @@ Step-by-step guides are provided here:
 - How to import Vernaculars - **coming soon**
 
 Further insights can be checked in the prototype development journal here:
-- [Importing Existing Data: Herbarium](2018-07-13-importing-data-herbarium.md)
-- [Importing Vernaculars](2018-07-20-importing-vernaculars.md)
+- [Importing Existing Data: Herbarium](./_posts/2018-07-13-importing-data-herbarium.md)
+- [Importing Vernaculars](./_posts/2018-07-20-importing-vernaculars.md)
 
 ## Collections
 Collections are taxa and museum-based, both for historical reasons and for purposes of easier data updating and organizing. For instance, the Herbarium has five different collections: Bryophytes, Vascular Plants, Lichens, Fungi, and Vascular Non-Wisconsin Plants.
