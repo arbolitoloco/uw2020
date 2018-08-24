@@ -78,6 +78,7 @@ For my data, these were the fields used in the taxonomic thesaurus import:
 - `class`
 - `order`
 - `family`
+- `genus`
 - `scinameinput`: required, full scientific name with or without author
 - `sciname`: full scientific name without author
 - `author`: author of taxon
