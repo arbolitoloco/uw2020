@@ -27,62 +27,16 @@ The exported `.csv` from DwC-A has to be modified so that the manual import on S
 
 The following fields can be mapped into Symbiota using the graphic interface:
 
-- `acceptance`
-- `acceptedstr`
-- `author`: author of taxon
-- `class`
-- `errorstatus`
-- `family`
-- `genus`
-- `hybrid`
-- `infraauthor`
-- `infraspecificepithet`
-- `initialtimestamp`
-- `kingdom`
-- `notes`
-- `order`
-- `organism`
-- `parentstr`: strongly recommended for building hierarchy correctly, parent taxon's `sciname`
-- `phylum`
-- `rankid`: number assigned to rank of taxon in table `taxonunits` (for instance, `kingdom=10` and `species=220`)
-- `rankname`
-- `sciname`: full scientific name without author
-- `scinameinput`: required, full scientific name with or without author
-- `section`
-- `securitystatus`
-- `source`
-- `sourceacceptedid`
-- `sourceid`
-- `sourceparentid`
-- `specificepithet`
-- `subclass`
-- `subfamily`
-- `subgenus`
-- `subkingdom`
-- `suborder`
-- `subphylum`
-- `subsection`
-- `subtribe`
-- `superclass`
-- `taxonrank`
-- `tribe`
-- `unacceptabilityreason`
-- `vernacular`
-- `vernlang`
-
-Whenever importing the taxonomic thesaurus using the graphic interface (that is, through the portal), a script will allocate the information from these fields in the adequate tables and generate identification numbers to the new records.
-For my data, these were the fields used in the taxonomic thesaurus import:
-
 - `kingdom`
 - `phylum`
 - `class`
 - `order`
 - `family`
-- `genus`
 - `scinameinput`: required, full scientific name with or without author
 - `sciname`: full scientific name without author
 - `author`: author of taxon
 - `parentstr`: strongly recommended for building hierarchy correctly, parent taxon's `sciname`
 - `rankid`: number assigned to rank of taxon in table `taxonunits` (for instance, `kingdom=10` and `species=220`)
 
-*Tip*: Symbiota has a built-in feature for troubleshooting the occasional errors. After uploading the spreadsheet and mapping the fields for the import, a report is going to be generated, showing the number of taxa and their status (uploaded, already in thesaurus, new, etc.). It is possible to verify if the taxa are being correctly uploaded by verifying the "processed" data, by downloading the `.csv` taxa file generated. Just click the link "Download CSV Taxa File", review the information in it.
+*Tip*: remember to leave empty the ranks that are equal or below the taxon that is being imported. This means the spreadsheet generated with OpenRefine had to be manually cleaned for the higher taxa (for example, the record for class Bivalvia had the columns for `class`, `order`, and `family` cleared).
+
