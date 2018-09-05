@@ -50,6 +50,7 @@ Base styles are implemented using Foundation framework by ZURB. Templating in Sy
 - `foundation.css` renamed to `base.css`
 - `app.css` renamed to `main.css`
 JavaScript will have to be added later for cross compatibility.
+**Working on changing headers and footers to allow for better styling**
 
 # Features
 
