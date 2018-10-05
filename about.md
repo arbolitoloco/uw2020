@@ -11,4 +11,4 @@ Tasks and progress can be viewed as a kanban board [here](https://github.com/arb
 Milestones can be viewed [here](https://github.com/arbolitoloco/uw2020/milestones).
 When viewing tasks and milestones, be sure to check the "closed" link to see what has been completed.
 Thoughts and updates posted regularly [here](https://arbolitoloco.github.io/uw2020).
-General Symbiota documentation is found [here](https://github.com/arbolitoloco/uw2020/docs/docs-summary/).
+General Symbiota documentation is found [here](https://arbolitoloco.github.io/uw2020/docs/docs-summary/).
