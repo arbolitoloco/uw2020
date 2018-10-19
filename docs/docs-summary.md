@@ -34,7 +34,7 @@ Step-by-step guides are provided here:
 - How to import Vernaculars - **coming soon**
 
 Further insights can be checked in the prototype development journal here:
-- [Importing Existing Data: Herbarium](https://arbolitoloco.github.io/uw2020/2018-07-13-importing-data-herbarium.md)
+- [Importing Existing Data: Herbarium](https://arbolitoloco.github.io/uw2020/2018-07-13-importing-data-herbarium)
 - [Importing Existing Data: Vernaculars](https://arbolitoloco.github.io/uw2020/2018-07-20-importing-vernaculars)
 
 ## Collections
