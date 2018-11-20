@@ -11,8 +11,8 @@ Following instructions found at [Symbiota's documentation](http://symbiota.org/d
 2. Created empty MySQL database in phpMyAdmin
 3. Added reader and writer users to database, giving them the adequate permissions to interact with the schema (in phpMyAdmin)
 4. Imported schema update files to database from `/config/schema-1.0` (in phpMyAdmin)
-5. Edited /config/dbconnection.php with database credentials
-6. Edited /config/symbini.php with general configurations, had issues with relative paths - fixed (pay attention to `$CLIENT_ROOT` path)
+5. Edited `/config/dbconnection.php` with database credentials
+6. Edited `/config/symbini.php` with general configurations, had issues with relative paths - fixed (pay attention to `$CLIENT_ROOT` path)
 7. Server admin granted user privileges
 8. First empty portal successfully running!
 
