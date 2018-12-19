@@ -1,5 +1,17 @@
 # Files that have to be changed to create a new theme
 
+footer.php
+header.php
+index.php
+leftmenu.php
+readme.txt
+robots.txt
+css/jQuery-ui.css
+css/main.css
+css/speciesprofile.css
+
+# Files that include base and main css references
+
 `Searching 2688 files for "css/base.css?"`
 
 index_template.php
