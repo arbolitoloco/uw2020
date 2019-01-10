@@ -14,8 +14,8 @@ css/speciesprofile.css
 
 `Searching 2688 files for "css/base.css?"`
 
-index_template.php
-sitemap.php
+[] index_template.php
+[] sitemap.php
 
 agents/agent.php
 agents/index.php
@@ -24,7 +24,7 @@ checklists/checklist.php
 checklists/checklistadmin.php
 checklists/checklistmap.php
 checklists/clsppeditor.php
-checklists/dynamicmap.php
+[] checklists/dynamicmap.php
 checklists/index.php
 checklists/voucheradmin.php
 checklists/tools/checklistloader.php
@@ -32,7 +32,7 @@ checklists/tools/floradynsql.php
 checklists/tools/index.php
 
 collections/harvestparams.php
-collections/index.php
+[] collections/index.php
 collections/list.php
 collections/listtabledisplay.php
 collections/admin/guidmapper.php
@@ -75,7 +75,7 @@ collections/individual/index.php
 collections/loans/index.php
 collections/map/garmin.php
 collections/map/googlemap.php
-collections/map/index.php
+[] collections/map/index.php
 collections/misc/assocmanagement.php
 collections/misc/collbackup.php
 collections/misc/collmetadata.php
@@ -138,8 +138,8 @@ ident/tools/massupdate.php
 
 imagelib/contributors.php
 imagelib/imgdetails.php
-imagelib/index.php
-imagelib/search.php
+[] imagelib/index.php
+[] imagelib/search.php
 imagelib/admin/imageloader.php
 imagelib/admin/index.php
 imagelib/admin/thumbnailbuilder.php
@@ -150,8 +150,8 @@ misc/generaltemplate.php
 misc/index.php
 misc/usagepolicy_template.php
 
-profile/index.php
-profile/newprofile.php
+[] profile/index.php
+[] profile/newprofile.php
 profile/personalspecbackup.php
 profile/usermanagement.php
 profile/usertaxonomymanager.php
