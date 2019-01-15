@@ -7,9 +7,9 @@ tags:
 
 # Head Includes
 
-The following files were initially edited to include custom styles:
-[] index_template.php
-[] sitemap.php
+The following files were initially edited to include custom styles (added to uw theme folder):
+[x] index.php
+[X] sitemap.php
 [] checklists/dynamicmap.php
 [] collections/index.php
 [] collections/map/index.php
