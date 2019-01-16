@@ -11,12 +11,14 @@ The following files were initially edited to include custom styles (added to uw 
 [x] index.php
 [X] sitemap.php
 [] checklists/dynamicmap.php
-[] collections/index.php
-[] collections/map/index.php
+[x] collections/index.php
+[x] collections/harvestparams.php
+[x] collections/list.php
+[x] collections/map/index.php
 [] imagelib/index.php
 [] imagelib/search.php
-[] profile/index.php
-[] profile/newprofile.php
+[x] profile/index.php
+[x] profile/newprofile.php
 
 1. Add page title variable to first PHP block
 
