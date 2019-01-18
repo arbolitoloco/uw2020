@@ -9,16 +9,21 @@ tags:
 
 The following files were initially edited to include custom styles (added to uw theme folder):
 [x] index.php
-[X] sitemap.php
+[x] sitemap.php
 [] checklists/dynamicmap.php
 [x] collections/index.php
-[x] collections/harvestparams.php
-[x] collections/list.php
-[x] collections/map/index.php
-[] imagelib/index.php
-[] imagelib/search.php
+[x] collections/individual/index.php
+[x] collections/map
+[x] imagelib/index.php
+[x] imagelib/search.php
 [x] profile/index.php
+[x] profile/viewprofile.php
 [x] profile/newprofile.php
+
+Additional files that had custom styles included (and head includes changed):
+[] sitetools.php
+[] collections/cleaning/taxonomycleaner.php
+
 
 1. Add page title variable to first PHP block
 
