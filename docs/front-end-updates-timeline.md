@@ -21,8 +21,13 @@ The following files were initially edited to include custom styles (added to uw 
 [x] profile/newprofile.php
 
 Additional files that had custom styles included (and head includes changed):
-[] sitetools.php
+[x] sitetools.php
 [] collections/cleaning/taxonomycleaner.php
+[] collections/misc/collmetadata.php
+[] collections/misc/collprofiles.php
+[] ident/key.php
+[] taxa/taxonomy/taxonomydisplay.php
+[] tools/editor.php
 
 
 1. Add page title variable to first PHP block
