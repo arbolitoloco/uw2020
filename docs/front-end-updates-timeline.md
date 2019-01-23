@@ -10,7 +10,6 @@ tags:
 The following files were initially edited to include custom styles (added to uw theme folder):
 [x] index.php
 [x] sitemap.php
-[] checklists/dynamicmap.php
 [x] collections/index.php
 [x] collections/individual/index.php
 [x] collections/map
@@ -22,12 +21,17 @@ The following files were initially edited to include custom styles (added to uw 
 
 Additional files that had custom styles included (and head includes changed):
 [x] sitetools.php
+[] checklists/checklistadmin.php
+[] checklists/dynamicmap.php
 [] collections/cleaning/taxonomycleaner.php
 [] collections/misc/collmetadata.php
 [] collections/misc/collprofiles.php
-[] ident/key.php
+[x] ident/key.php -- identification keys
+[x] ident/index.php -- identification keys
+[x] ident/admin/index.php -- identification keys
+[x] ident/admin/chardetails.php -- identification keys
+[] ident/tools/editor.php -- identification keys
 [] taxa/taxonomy/taxonomydisplay.php
-[] tools/editor.php
 
 
 1. Add page title variable to first PHP block
