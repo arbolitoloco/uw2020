@@ -23,15 +23,16 @@ Additional files that had custom styles included (and head includes changed):
 [x] sitetools.php
 [] checklists/checklistadmin.php
 [] checklists/dynamicmap.php
+[] collections/cleaning/index.php
 [] collections/cleaning/taxonomycleaner.php
-[] collections/misc/collmetadata.php
-[] collections/misc/collprofiles.php
+[x] collections/misc/collmetadata.php
+[x] collections/misc/collprofiles.php
 [x] ident/key.php -- identification keys
 [x] ident/index.php -- identification keys
 [x] ident/admin/index.php -- identification keys
 [x] ident/admin/chardetails.php -- identification keys
-[] ident/tools/editor.php -- identification keys
-[] taxa/taxonomy/taxonomydisplay.php
+[x] ident/tools/editor.php -- identification keys (char editor for species?)
+[x] taxa/taxonomy/taxonomydisplay.php
 
 
 1. Add page title variable to first PHP block
