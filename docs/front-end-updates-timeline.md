@@ -5,6 +5,17 @@ author: "Laura"
 tags: 
 ---
 
+# Content
+
+Additional pages were created:
+[x] about.php
+[x] digital-collections.php
+[x] help.php
+[x] map-search-info.php
+[x] museums.php
+[x] sitetools.php
+[x] template.php
+
 # Head Includes
 
 The following files were initially edited to include custom styles (added to uw theme folder):
@@ -87,3 +98,5 @@ Additional files that had custom styles included (and head includes changed):
 
 		<!-- Custom Styles -->
 		<?php include($SERVER_ROOT.'/css/styles.php');?>
+
+
