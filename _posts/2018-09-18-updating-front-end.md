@@ -23,5 +23,7 @@ Pages had to be "cleaned" up to further adopt a DRY (Don't Repeat Yourself) para
 
 Inside the `template-begins.php` there is also the definition of the pattern for page names, reference for styles and the script for Google Analytics (because we want to track it for every page in the website).
 
+## Group collections by taxonomic group on Advanced Search
 
+There is built-in support to group collections into categories, but it is not quite straightforward. I've decided to group the collections by higher taxonomic group (for biological specimens), or higher category (for non-biological specimens). The instructions to add those groups are found [here](https://arbolitoloco.github.io/uw2020/2019-01-24-how-to-group-collections).
 
