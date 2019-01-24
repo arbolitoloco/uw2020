@@ -21,10 +21,11 @@ The following files were initially edited to include custom styles (added to uw 
 
 Additional files that had custom styles included (and head includes changed):
 [x] sitetools.php
-[] checklists/checklistadmin.php
-[] checklists/dynamicmap.php
-[] collections/cleaning/index.php
-[] collections/cleaning/taxonomycleaner.php
+[x] checklists/checklist.php
+[x] checklists/checklistadmin.php
+[x] checklists/dynamicmap.php
+[x] collections/cleaning/index.php
+[x] collections/cleaning/taxonomycleaner.php
 [x] collections/misc/collmetadata.php
 [x] collections/misc/collprofiles.php
 [x] ident/key.php -- identification keys
