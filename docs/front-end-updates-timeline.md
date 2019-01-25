@@ -35,6 +35,8 @@ Additional files that had custom styles included (and head includes changed):
 [x] checklists/checklist.php
 [x] checklists/checklistadmin.php
 [x] checklists/dynamicmap.php
+[] checklists/voucheradmin.php
+[] collections/admin/specupload.php
 [x] collections/cleaning/index.php
 [x] collections/cleaning/taxonomycleaner.php
 [x] collections/misc/collmetadata.php
@@ -44,6 +46,7 @@ Additional files that had custom styles included (and head includes changed):
 [x] ident/admin/index.php -- identification keys
 [x] ident/admin/chardetails.php -- identification keys
 [x] ident/tools/editor.php -- identification keys (char editor for species?)
+[] taxa/index.php
 [x] taxa/taxonomy/taxonomydisplay.php
 
 
