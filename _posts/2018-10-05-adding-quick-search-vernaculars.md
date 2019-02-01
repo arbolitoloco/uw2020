@@ -20,3 +20,5 @@ Files/snippets that were added:
 			$taxon = array_key_exists("taxon",$_REQUEST)?trim($_REQUEST["taxon"]):"";
 			$imgLibManager = new TaxonQuickSearchManager();
 		?>
+
+- Included new class `TaxonQuickSearchManager.php`, that extends 
