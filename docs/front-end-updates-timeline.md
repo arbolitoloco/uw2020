@@ -25,7 +25,7 @@ The following files were initially edited to include custom styles (added to uw 
 [x] collections/individual/index.php
 [x] collections/map
 [x] imagelib/index.php
-[x] imagelib/search.php
+[] imagelib/search.php
 [x] profile/index.php
 [x] profile/viewprofile.php
 [x] profile/newprofile.php
