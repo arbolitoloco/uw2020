@@ -29,3 +29,19 @@ Ore                   | 1
 Quartz                | 2
 Rock Specimen         | 87
 Vertebrate            | 2
+
+## Object taxonomy
+
+To allow for a completely new category, that I'm going to call "Geological Specimen", and that would be included in the highest level `Object` (comparable to level `Organism` for biological trees), `rankid` = 1, add new record in table `taxonunits`.
+
+Symbiota accommodates many taxonomic levels under each Domain, from Kingdom to Form. The categories levels can have different names (defined field `rankname`) and are ordered following their rank number (field `rankid`).
+
+I'm taking advantage of that built-in characteristic, by defining the following categories in table `taxonunits`:
+
+`kingdomName` | `rankid` | `rankname`          | Parent Rank         | `dirparentrankid` | `reqparentrankid` | equivalent
+Object        | 1        | Object              | Object              | 1                 | 1                 | Organism
+Object        | 10       | Geological Specimen | Object              | 1                 | 1                 | Kingdom
+Object        | 20       | Fossil              | Geological Specimen | 10                | 10                | Subkingdom
+Object        | 20       | Mineral Specimen    | Geological Specimen | 10                | 10                | Subkingdom
+
+
