@@ -47,7 +47,9 @@ Additional files that had custom styles included (and head includes changed):
 [x] ident/admin/chardetails.php -- identification keys
 [x] ident/tools/editor.php -- identification keys (char editor for species?)
 [] taxa/index.php
+[] taxa/taxonomy/batchloader.php
 [x] taxa/taxonomy/taxonomydisplay.php
+[] taxa/taxonomy/taxoneditor.php
 
 
 1. Add page title variable to first PHP block
