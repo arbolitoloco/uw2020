@@ -4,6 +4,10 @@ title: "How to Custome Search Methods in Symbiota"
 author: "Laura"
 permalink: /docs/how-to-customize-searches/
 ---
+The inclusion of the field `occurrenceRemarks` in the Advanced Search is a major improvement to the portal, particularly for the specimens hosted at the Geological Museum and the Anthropology Department, because they usually contain a lot of information that should be accessible to the public.
+
+The following instructions exemplify how to add a field that already exists in the database to the search methods in the Advanced Search forms (using field `disposition` as the example).
+
 
 Advanced Search is available at `/collections/index.php`. This file includes the class `OccurrenceManager`. 
 A form in the `specimendiv` shows the list of collections with specimens, and calls `/collections/harvestparams.php`, selecting collections to be searched according to the user input.
