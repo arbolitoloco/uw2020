@@ -6,6 +6,7 @@ permalink: /docs/docs-summary/
 ---
 
 # Symbiota Installation
+
 Following instructions found at [Symbiota's documentation](http://symbiota.org/docs/installation-instructions/) and some trial and error, this is the step-by-step to install a Symbiota portal:
 1. Prototype development started with [Symbiota version 1.0](https://github.com/Symbiota/Symbiota/releases) (cloned from Github 2018-05-11)
 2. Created empty MySQL database in phpMyAdmin
@@ -40,8 +41,14 @@ Further insights can be checked in the prototype development journal here:
 ## Collections
 Collections are taxa and museum-based, both for historical reasons and for purposes of easier data updating and organizing. For instance, the Herbarium has five different collections: Bryophytes, Vascular Plants, Lichens, Fungi, and Vascular Non-Wisconsin Plants.
 
+- [UW Biodiversity Data Management](https://arbolitoloco.github.io/uw2020/docs/uw-biodiversity-data-mgmt/)
+- [How to Group Collections in the Advanced Search Form](https://arbolitoloco.github.io/uw2020/2019-01-24-how-to-group-collections/)
+
 ## Specimens
-Specimens are stored in Symbiota as occurrences. The main table containing specimen information is called *fmoccurrences*. 
+Specimens are stored in Symbiota as occurrences. The main table containing specimen information is called `fmoccurrences`.
+
+- [Importing Occurrences - Data standards and methods](https://arbolitoloco.github.io/uw2020/docs/occurrence-import/)
+- [Importing Existing Data: Vernaculars](https://arbolitoloco.github.io/uw2020/2018-07-20-importing-vernaculars)
 
 # Front-End
 
@@ -56,6 +63,8 @@ JavaScript will have to be added later for cross compatibility.
 
 # Versioning and Backups
 Local staging is version tracked with Git. There is a remote private repository at Bitbucket. Additional backups are scheduled frequently to a private folder. The production server is made available by the Math department (Fibonacci server). Databases are frequently backed up using phpMyAdmin.
+
+----------------------------------------
 
 # Guide to Symbiota's official documentation
 Sometimes it can be hard to find the right information on Symbiota's official documentation, so I'm listing here links that might be helpful and are often scattered on [http://symbiota.org](http://symbiota.org). I'm also commenting on what I personally think has to be further explained (and if I'm working on it).
