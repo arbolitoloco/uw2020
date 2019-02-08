@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title:  "Uploading taxa (taxonomic tree)"
+title:  "Importing taxa (taxonomic tree)"
 author: "Laura"
 tags: 
 ---
