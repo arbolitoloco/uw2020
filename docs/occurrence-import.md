@@ -24,9 +24,13 @@ The searchable `.csv` version of this file can be found [here]().
 
 ### Conversion Procedures
 
-Non-Symbiota management systems can have their data exported to a Darwin Core format to make the imports easier. The actions that have to be performed in each collection are described in the tables below.
+Non-Symbiota management systems can have their data exported to a Darwin Core format to make the imports easier. The actions that have to be performed in each collection are described in the documents listed below.
 
-#### Entomology
+- Anthropology
+- Botany
+- Entomology
+- [Geology]((https://arbolitoloco.github.io/uw2020/docs/occ-conversion-proc-geology/)
+- Zoology
 
 
 ## Importing fields through Direct Database Mapping

@@ -5,6 +5,9 @@ author: "Laura"
 permalink: /docs/docs-summary/
 ---
 
+What follows is a summary of the "Documentation" available for Symbiota, in two parts. The first part has been written by me, as a result of my experiments with Symbiota. The second part is a compilation of Symbiota's official documentation and information.
+
+# Part I
 # Symbiota Installation
 
 Following instructions found at [Symbiota's documentation](http://symbiota.org/docs/installation-instructions/) and some trial and error, this is the step-by-step to install a Symbiota portal:
@@ -48,7 +51,9 @@ Collections are taxa and museum-based, both for historical reasons and for purpo
 Specimens are stored in Symbiota as occurrences. The main table containing specimen information is called `fmoccurrences`.
 
 - [Importing Occurrences - Data standards and methods](https://arbolitoloco.github.io/uw2020/docs/occurrence-import/)
-- [Importing Existing Data: Vernaculars](https://arbolitoloco.github.io/uw2020/2018-07-20-importing-vernaculars)
+- Occurrence fields conversion procedures
+	- [Geology](https://arbolitoloco.github.io/uw2020/docs/occ-conversion-proc-geology/)
+
 
 # Front-End
 
@@ -61,11 +66,16 @@ JavaScript will have to be added later for cross compatibility.
 
 # Features
 
+## Searches
+
+- []()
+
 # Versioning and Backups
 Local staging is version tracked with Git. There is a remote private repository at Bitbucket. Additional backups are scheduled frequently to a private folder. The production server is made available by the Math department (Fibonacci server). Databases are frequently backed up using phpMyAdmin.
 
-----------------------------------------
 
+----------------------------------------
+# Part II
 # Guide to Symbiota's official documentation
 Sometimes it can be hard to find the right information on Symbiota's official documentation, so I'm listing here links that might be helpful and are often scattered on [http://symbiota.org](http://symbiota.org). I'm also commenting on what I personally think has to be further explained (and if I'm working on it).
 
