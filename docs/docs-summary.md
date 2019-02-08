@@ -8,6 +8,7 @@ permalink: /docs/docs-summary/
 What follows is a summary of the "Documentation" available for Symbiota, in two parts. The first part has been written by me, as a result of my experiments with Symbiota. The second part is a compilation of Symbiota's official documentation and information.
 
 # Part I
+
 # Symbiota Installation
 
 Following instructions found at [Symbiota's documentation](http://symbiota.org/docs/installation-instructions/) and some trial and error, this is the step-by-step to install a Symbiota portal:
@@ -28,26 +29,32 @@ For a detailed step-by-step guide on how to install a Symbiota portal in a local
 # Data Input/Import
 
 ## Taxa
+
 As per Symbiota documentation, the first step to establish a data portal is to import a general taxonomic thesaurus, so that specimens can be subsequently added to an existing taxonomic schema/tree.
 For biological collections, higher level taxonomic trees have been initially imported from ITIS. Additional thesauri have been imported from existing databases.
 The Anthropology Museum curator has crafted a hierarchical classification of non-biological items, which has been imported into the general taxonomic thesaurus.
 A similar solution is expected to be provided to the non-biological specimens belonging to the Geology Museum.
 After a thesaurus is established, collection profiles can be generated and specimens then imported.
 Step-by-step guides are provided here:
+
 - How to import a Taxonomic Thesaurus - **coming soon**
 - How to import Vernaculars - **coming soon**
 
 Further insights can be checked in the prototype development journal here:
+
 - [Importing Existing Data: Herbarium](https://arbolitoloco.github.io/uw2020/2018-07-13-importing-data-herbarium)
 - [Importing Existing Data: Vernaculars](https://arbolitoloco.github.io/uw2020/2018-07-20-importing-vernaculars)
+- [Non-Biological tree experiments](https://arbolitoloco.github.io/uw2020/2018-11-16-non-biological-tree-experiments)
 
 ## Collections
+
 Collections are taxa and museum-based, both for historical reasons and for purposes of easier data updating and organizing. For instance, the Herbarium has five different collections: Bryophytes, Vascular Plants, Lichens, Fungi, and Vascular Non-Wisconsin Plants.
 
 - [UW Biodiversity Data Management](https://arbolitoloco.github.io/uw2020/docs/uw-biodiversity-data-mgmt/)
 - [How to Group Collections in the Advanced Search Form](https://arbolitoloco.github.io/uw2020/2019-01-24-how-to-group-collections/)
 
 ## Specimens
+
 Specimens are stored in Symbiota as occurrences. The main table containing specimen information is called `fmoccurrences`.
 
 - [Importing Occurrences - Data standards and methods](https://arbolitoloco.github.io/uw2020/docs/occurrence-import/)
