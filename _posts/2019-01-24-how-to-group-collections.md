@@ -13,3 +13,13 @@ Symbiota uses "categories" to generate groups of collections that can be selecte
 Tables edited:
 - `omcollcategories`
 - `omcollcatlink`
+
+Categories added:
+
+`ccpk` | `category`
+-------|------------
+1      | Anthropology
+2      | Botany
+3      | Entomology
+4      | Geology
+5      | Zoology
