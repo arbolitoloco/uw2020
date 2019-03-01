@@ -20,7 +20,7 @@ The list of occurrences (specimens or observations) fields that can be uploaded 
 <!-- Place this tag where you want the Awesome Table Widget to render -->
 <div data-type="AwesomeTableView" data-viewID="-LSWcJK5mNPL6YJsAeUv"></div>
 
-The searchable `.csv` version of this file can be found [here](https://github.com/arbolitoloco/uw2020/symb-dwc-terms-occurrences/).
+The searchable `.csv` version of this file can be found [here](https://github.com/arbolitoloco/uw2020/blob/master/docs/symb-dwc-terms-occurrences.csv).
 
 ### Conversion Procedures
 
