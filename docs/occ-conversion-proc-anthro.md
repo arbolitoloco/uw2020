@@ -16,7 +16,7 @@ Record Type              | Value of `basisOfRecord`
 biological               | PreservedSpecimen
 object                   | MaterialSample
 photography or documents | HumanObservation
-<hr>
+
 
 The following table describes the field equivalencies for each major "subcollection", with performed adaptations:
 
@@ -35,7 +35,6 @@ Continent | continent | none, data is already up to standard
 Country | country | none, data is already up to standard
 State | stateProvince | none, data is already up to standard
 County | county | none, data is already up to standard
----------------------------------------------------
 
 These additional fields should be added to complete the data:
 
@@ -49,7 +48,6 @@ Type Name | sciname | scientific name without autors (example: Musca domestica O
 - | scientificName | full scientific name, with or without autors (example: Musca domestica OR Musca domestica Linnaeus OR the least inclusive taxonomic name available, for instance Insecta).
 - | family | optional, biological familial name
 - | kingdom | optional, biological kingdom name
----------------------------------------------------
 
 All other fields in the original database were ignored.
 
