@@ -20,16 +20,16 @@ The list of occurrences (specimens or observations) fields that can be uploaded 
 <!-- Place this tag where you want the Awesome Table Widget to render -->
 <div data-type="AwesomeTableView" data-viewID="-LSWcJK5mNPL6YJsAeUv"></div>
 
-The searchable `.csv` version of this file can be found [here]().
+The searchable `.csv` version of this file can be found [here](https://github.com/arbolitoloco/uw2020/symb-dwc-terms-occurrences/).
 
 ### Conversion Procedures
 
 Non-Symbiota management systems can have their data exported to a Darwin Core format to make the imports easier. The actions that have to be performed in each collection are described in the documents listed below.
 
-- Anthropology
+- [Anthropology](https://arbolitoloco.github.io/uw2020/docs/occ-conversion-proc-anthro/)
 - Botany
 - Entomology
-- [Geology]((https://arbolitoloco.github.io/uw2020/docs/occ-conversion-proc-geology/)
+- [Geology](https://arbolitoloco.github.io/uw2020/docs/occ-conversion-proc-geology/)
 - Zoology
 
 

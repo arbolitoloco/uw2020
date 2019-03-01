@@ -1,0 +1,119 @@
+Symbiota Upload Option,DwC full equivalent,DwC partial equivalent,Description (Symbiota),Description (DwC),DwC link,Notes,Category,View,Order in Upload form
+StringFilter - CategoryFilter,StringFilter - CategoryFilter - HyperlinkType (F),StringFilter - HyperlinkType (F) - Hidden,,,,Hidden,CategoryFilter,Hidden,NoFilter
+associatedcollectors,,recordedBy,,,,,,,21
+associatedmedia,associatedMedia,,"URL to jpg images, delimited by commas or semicolons","A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the Occurrence.",http://rs.tdwg.org/dwc/terms/#dwc:associatedMedia,,Occurrence,,
+associatedtaxa,associatedTaxa,,Associated species delimited by commas or semicolons,A list (concatenated and separated) of identifiers or names of taxa and their associations with the Occurrence.,http://rs.tdwg.org/dwc/terms/#dwc:associatedTaxa,,Occurrence,,30
+basisofrecord,basisOfRecord,,,The specific nature of the data record.,http://rs.tdwg.org/dwc/terms/#dwc:basisOfRecord,,Record-level,,
+behavior,behavior,,,The behavior shown by the subject at the time the Occurrence was recorded.,http://rs.tdwg.org/dwc/terms/#dwc:behavior,,Occurrence,,
+catalognumber,catalogNumber,,Barcode or Accession number,An identifier (preferably unique) for the record within the data set or collection.,http://rs.tdwg.org/dwc/terms/#dwc:catalogNumber,,Occurrence,,2
+collectioncode,collectionCode,,Populate only if different than source collection,"The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived.",http://rs.tdwg.org/dwc/terms/#dwc:collectionCode,,Record-level,,
+collectorfamilyname,,recordedBy,,,,,,,
+collectorinitials,,recordedBy,,,,,,,
+coordinateuncertaintyinmeters,coordinateUncertaintyInMeters,,,"The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term.",http://rs.tdwg.org/dwc/terms/#dwc:coordinateUncertaintyInMeters,,Location,,
+country,country,,,The name of the country or major administrative unit in which the Location occurs.,http://rs.tdwg.org/dwc/terms/#dwc:country,,Location,,39
+county,county,,,"The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs.",http://rs.tdwg.org/dwc/terms/#dwc:county,,Location,,41
+cultivationstatus,,,"0 = wild, 1 = cultivated",,,,,,34
+datageneralizations,dataGeneralizations,,,Actions taken to make the shared data less specific or complete than in its original form. Suggests that alternative data of higher quality may be available on request.,http://rs.tdwg.org/dwc/terms/#dwc:dataGeneralizations,,UseWithIRI,,29
+dateidentified,dateIdentified,,,The date on which the subject was identified as representing the Taxon.,http://rs.tdwg.org/dwc/terms/#dwc:dateIdentified,,Identification,,14
+day,day,,,The integer day of the month on which the Event occurred.,http://rs.tdwg.org/dwc/terms/#dwc:day,,Event,,
+dbpk,,catalogNumber,Specimen record unique identifier (primary key) of source database (record id).,,,,,,1
+decimallatitude,decimalLatitude,,,"The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.",http://rs.tdwg.org/dwc/terms/#dwc:decimalLatitude,,Location,,46
+decimallongitude,decimalLongitude,,"For USA records, value is negative","The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.",http://rs.tdwg.org/dwc/terms/#dwc:decimalLongitude,,Location,,47
+disposition,disposition,,,The current state of a specimen with respect to the collection identified in collectionCode or collectionID.,http://rs.tdwg.org/dwc/terms/#dwc:disposition,,UseWithIRI,,59
+duplicatequantity,,,,,,,,,62
+dynamicproperties,dynamicProperties,,,"A list of additional measurements, facts, characteristics, or assertions about the record. Meant to provide a mechanism for structured content.",http://rs.tdwg.org/dwc/terms/#dwc:dynamicProperties,,Record-level,,31
+elevationnumber,,"minimumElevationInMeters, maximumElevationInMeters",Elevation number and units are concatenated into,,,,,,
+elevationunits,,verbatimElevation,verbatimElevation and translated into min. elev. in m.,,,,,,
+enddayofyear,endDayOfYear,,,"The latest ordinal day of the year on which the Event occurred (1 for January 1, 365 for December 31, except in a leap year, in which case it is 366).",http://rs.tdwg.org/dwc/terms/#dwc:endDayOfYear,,Event,,
+establishmentmeans,establishmentMeans,,"e.g. cultivated, garden escape, etc",The process by which the biological individual(s) represented in the Occurrence became established at the location.,http://rs.tdwg.org/dwc/terms/#dwc:establishmentMeans,,UseWithIRI,,35
+eventdate,eventDate,,Date collected,"The date-time or interval during which an Event occurred. For occurrences, this is the date-time when the event was recorded. Not suitable for a time in a geological context.",http://rs.tdwg.org/dwc/terms/#dwc:eventDate,,Event,,22
+exsiccatiidentifier,,,,,,,,,
+exsiccatinotes,,,,,,,,,
+exsiccatinumber,,,,,,,,,
+family,family,,,The full scientific name of the family in which the taxon is classified.,http://rs.tdwg.org/dwc/terms/#dwc:family,,Taxon,,5
+fieldnumber,fieldNumber,,,An identifier given to the event in the field. Often serves as a link between field notes and the Event.,http://rs.tdwg.org/dwc/terms/#dwc:fieldNumber,,UseWithIRI,,
+footprintwkt,footprintWKT,,,"A Well-Known Text (WKT) representation of the shape (footprint, geometry) that defines the Location. A Location may have both a point-radius representation (see decimalLatitude) and a footprint representation, and they may differ from each other.",http://rs.tdwg.org/dwc/terms/#dwc:footprintWKT,,UseWithIRI,,
+genus,genus,,,The full scientific name of the genus in which the taxon is classified.,http://rs.tdwg.org/dwc/terms/#dwc:genus,,Taxon,,7
+geodeticdatum,geodeticDatum,,"WGS84, NAD83, NAD27, etc","The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based.",http://rs.tdwg.org/dwc/terms/#dwc:geodeticDatum,,UseWithIRI,,48
+georeferencedby,georeferencedBy,,,"A list (concatenated and separated) of names of people, groups, or organizations who determined the georeference (spatial representation) for the Location.",http://rs.tdwg.org/dwc/terms/#dwc:georeferencedBy,,Location,,51
+georeferenceprotocol,georeferenceProtocol,,,"A description or reference to the methods used to determine the spatial footprint, coordinates, and uncertainties.",http://rs.tdwg.org/dwc/terms/#dwc:georeferenceProtocol,,Location,,52
+georeferenceremarks,georeferenceRemarks,,,"Notes or comments about the spatial description determination, explaining assumptions made in addition or opposition to the those formalized in the method referred to in georeferenceProtocol.",http://rs.tdwg.org/dwc/terms/#dwc:georeferenceRemarks,,Location,,55
+georeferencesources,georeferenceSources,,,"A list (concatenated and separated) of maps, gazetteers, or other resources used to georeference the Location, described specifically enough to allow anyone in the future to use the same resources.",http://rs.tdwg.org/dwc/terms/#dwc:georeferenceSources,,Location,,53
+georeferenceverificationstatus,georeferenceVerificationStatus,,,A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description.,http://rs.tdwg.org/dwc/terms/#dwc:georeferenceVerificationStatus,,Location,,54
+habitat,habitat,,,A category or description of the habitat in which the Event occurred.,http://rs.tdwg.org/dwc/terms/#dwc:habitat,,UseWithIRI,,24
+host,,associatedTaxa,,,,,,,
+identificationqualifier,identificationQualifier,,"cf, aff. etc","A brief phrase or a standard term (""cf."", ""aff."") to express the determiner's doubts about the Identification.",http://rs.tdwg.org/dwc/terms/#dwc:identificationQualifier,,UseWithIRI,,17
+identificationreferences,identificationReferences,,,"A list (concatenated and separated) of references (publication, global unique identifier, URI) used in the Identification.",http://rs.tdwg.org/dwc/terms/#dwc:identificationReferences,,Identification,,15
+identificationremarks,identificationRemarks,,,Comments or notes about the Identification.,http://rs.tdwg.org/dwc/terms/#dwc:identificationRemarks,,Identification,,16
+identifiedby,identifiedBy,,,"A list (concatenated and separated) of names of people, groups, or organizations who assigned the Taxon to the subject.",http://rs.tdwg.org/dwc/terms/#dwc:identifiedBy,,Identification,,13
+individualcount,individualCount,,,The number of individuals represented present at the time of the Occurrence.,http://rs.tdwg.org/dwc/terms/#dwc:individualCount,,Occurrence,,38
+informationwithheld,informationWithheld,,,"Additional information that exists, but that has not been shared in the given record.",http://rs.tdwg.org/dwc/terms/#dwc:informationWithheld,,UseWithIRI,,27
+infraspecificepithet,infraspecificEpithet,,,"The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation.",http://rs.tdwg.org/dwc/terms/#dwc:infraspecificEpithet,,Taxon,,10
+institutioncode,institutionCode,,Populate only if different than source collection,The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.,http://rs.tdwg.org/dwc/terms/#dwc:institutionCode,,Record-level,,
+labelproject,,,,,,,,,63
+language,language,,,A language of the resource.,http://rs.tdwg.org/dwc/terms/#dwc:language,,Record-level,,
+latdeg,,,"Generate decimal lat/long, then merged into verbCoor.",,,,,,
+latestdatecollected,,eventDate,"End date, when date is a range (previous DwC term)",,,,,,
+latmin,,,"Generate decimal lat/long, then merged into verbCoor.",,,,,,
+latns,,,"Generate decimal lat/long, then merged into verbCoor.",,,,,,
+latsec,,,"Generate decimal lat/long, then merged into verbCoor.",,,,,,
+lifestage,lifeStage,,,The age class or life stage of the biological individual(s) at the time the Occurrence was recorded.,http://rs.tdwg.org/dwc/terms/#dwc:lifeStage,,Occurrence,,36
+lngdeg,,,"Generate decimal lat/long, then merged into verbCoor.",,,,,,
+lngew,,,"Generate decimal lat/long, then merged into verbCoor.",,,,,,
+lngmin,,,"Generate decimal lat/long, then merged into verbCoor.",,,,,,
+lngsec,,,"Generate decimal lat/long, then merged into verbCoor.",,,,,,
+locality,locality,,,"The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description.",http://rs.tdwg.org/dwc/terms/#dwc:locality,,Location,,43
+localitysecurity,,,"0=don’t hide locality details from general public, 1=hide locality, 2=hide full record",,,,,,44
+localitysecurityreason,,,,,,,,,45
+locationremarks,locationRemarks,,,Comments or notes about the Location.,http://rs.tdwg.org/dwc/terms/#dwc:locationRemarks,,Location,,
+maximumdepthinmeters,maximumDepthInMeters,,,"The greater depth of a range of depth below the local surface, in meters.",http://rs.tdwg.org/dwc/terms/#dwc:maximumDepthInMeters,,Location,,
+maximumelevationinmeters,maximumElevationInMeters,,,"The upper limit of the range of elevation (altitude, usually above sea level), in meters.",http://rs.tdwg.org/dwc/terms/#dwc:maximumElevationInMeters,,Location,,57
+minimumdepthinmeters,minimumDepthInMeters,,,"The lesser depth of a range of depth below the local surface, in meters.",http://rs.tdwg.org/dwc/terms/#dwc:minimumDepthInMeters,,Location,,
+minimumelevationinmeters,minimumElevationInMeters,,"If elevation is single value, just use this field","The lower limit of the range of elevation (altitude, usually above sea level), in meters.",http://rs.tdwg.org/dwc/terms/#dwc:minimumElevationInMeters,,Location,,56
+modified,modified,,Date last modified within source database,The most recent date-time on which the resource was changed.,http://rs.tdwg.org/dwc/terms/#dwc:modified,,Record-level,,
+month,month,,build eventDate,The ordinal month in which the Event occurred.,http://rs.tdwg.org/dwc/terms/#dwc:month,,Event,,
+municipality,municipality,,,"The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location.",http://rs.tdwg.org/dwc/terms/#dwc:municipality,,Location,,42
+occurrenceremarks,occurrenceRemarks,,General notes or remarks,Comments or notes about the Occurrence.,http://rs.tdwg.org/dwc/terms/#dwc:occurrenceRemarks,,Occurrence,,26
+othercatalognumbers,otherCatalogNumbers,,,"A list (concatenated and separated) of previous or alternate fully qualified catalog numbers or other human-used identifiers for the same Occurrence, whether in the current or any other data set or collection.",http://rs.tdwg.org/dwc/terms/#dwc:otherCatalogNumbers,,Occurrence,,4
+ownerinstitutioncode,ownerInstitutionCode,,,The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record.,http://rs.tdwg.org/dwc/terms/#dwc:ownerInstitutionCode,,Record-level,,
+preparations,preparations,,,A list (concatenated and separated) of preparations and preservation methods for a specimen.,http://rs.tdwg.org/dwc/terms/#dwc:preparations,,Occurrence,,
+processingstatus,,,,,,,,,60
+recordedby,recordedBy,,Collector name,"A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first.",http://rs.tdwg.org/dwc/terms/#dwc:recordedBy,,UseWithIRI,,19
+recordenteredby,,,Data entry personnel,,,,,,61
+recordnumber,recordNumber,,Collector number,"An identifier given to the Occurrence at the time it was recorded. Often serves as a link between field notes and an Occurrence record, such as a specimen collector's number.",http://rs.tdwg.org/dwc/terms/#dwc:recordNumber,,UseWithIRI,,
+recordnumberprefix,,recordNumber,Merged into recordNumber,,,,,,
+recordnumbersuffix,,recordNumber,Merged into recordNumber,,,,,,
+reproductivecondition,reproductiveCondition,,"e.g. sterile, flw, frt, asci, etc. Use of controlled vocabulary is preferred.",The reproductive condition of the biological individual(s) represented in the Occurrence.,http://rs.tdwg.org/dwc/terms/#dwc:reproductiveCondition,,UseWithIRI,,33
+samplingeffort,samplingEffort,,,The amount of effort expended during an Event.,http://rs.tdwg.org/dwc/terms/#dwc:samplingEffort,,Event,,
+samplingprotocol,samplingProtocol,,,"The name of, reference to, or description of the method or protocol used during an Event.",http://rs.tdwg.org/dwc/terms/#dwc:samplingProtocol,,Event,,
+scientificname,scientificName,,Scientific name w/ author; author is parsed from name,"The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the IdentificationQualifier term.",http://rs.tdwg.org/dwc/terms/#dwc:scientificName,,Taxon,,6
+scientificnameauthorship,scientificNameAuthorship,,Author of scientific name,The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.,http://rs.tdwg.org/dwc/terms/#dwc:scientificNameAuthorship,,Taxon,,11
+sciname,,scientificName,Scientific name without author,,,,,,
+sex,sex,,,The sex of the biological individual(s) represented in the Occurrence.,http://rs.tdwg.org/dwc/terms/#dwc:sex,,Occurrence,,37
+specificepithet,specificEpithet,,,The name of the first or species epithet of the scientificName.,http://rs.tdwg.org/dwc/terms/#dwc:specificEpithet,,Taxon,,8
+startdayofyear,startDayOfYear,,,"The earliest ordinal day of the year on which the Event occurred (1 for January 1, 365 for December 31, except in a leap year, in which case it is 366).",http://rs.tdwg.org/dwc/terms/#dwc:startDayOfYear,,Event,,
+stateprovince,stateProvince,,,"The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs.",http://rs.tdwg.org/dwc/terms/#dwc:stateProvince,,Location,,40
+storagelocation,,,,,,,,,
+substrate,,,,,,,,,25
+taxonrank,taxonRank,,"Infraspecific rank (e.g. ssp., subsp., var., f., etc)",The taxonomic rank of the most specific name in the scientificName.,http://rs.tdwg.org/dwc/terms/#dwc:taxonRank,,Taxon,,9
+taxonremarks,taxonRemarks,,,Comments or notes about the taxon or name.,http://rs.tdwg.org/dwc/terms/#dwc:taxonRemarks,,Taxon,,12
+trsrange,,,Merged into verbCoor.,,,,,,
+trssection,,,Merged into verbCoor.,,,,,,
+trssectiondetails,,,Merged into verbCoor.,,,,,,
+trstownship,,,Merged into verbCoor.,,,,,,
+typestatus,typeStatus,,,"A list (concatenated and separated) of nomenclatural types (type status, typified scientific name, publication) applied to the subject.",http://rs.tdwg.org/dwc/terms/#dwc:typeStatus,,UseWithIRI,,18
+utmeasting,,,"Generate decimal lat/long, then merged into verbCoor.",,,,,,
+utmnorthing,,,"Generate decimal lat/long, then merged into verbCoor.",,,,,,
+utmzoning,,,"Generate decimal lat/long, then merged into verbCoor.",,,,,,
+verbatimattributes,,,"Verbatim description of organism (e.g. 1.5m tall, flowers white with purple tips, etc)",,,,,,
+verbatimcoordinates,verbatimCoordinates,,e.g. UTM: 12N 334543 5463754; 34° 25’N 113° 43’W,"The verbatim original spatial coordinates of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem.",http://rs.tdwg.org/dwc/terms/#dwc:verbatimCoordinates,,Location,,
+verbatimdepth,verbatimDepth,,,The original description of the depth below the local surface.,http://rs.tdwg.org/dwc/terms/#dwc:verbatimDepth,,Location,,
+verbatimelevation,verbatimElevation,,,"The original description of the elevation (altitude, usually above sea level) of the Location.",http://rs.tdwg.org/dwc/terms/#dwc:verbatimElevation,,Location,,58
+verbatimeventdate,verbatimEventDate,,,The verbatim original representation of the date and time information for an Event.,http://rs.tdwg.org/dwc/terms/#dwc:verbatimEventDate,,Event,,23
+verbatimlatitude,verbatimLatitude,,,"The verbatim original latitude of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem.",http://rs.tdwg.org/dwc/terms/#dwc:verbatimLatitude,,Location,,
+verbatimlongitude,verbatimLongitude,,"Generate decimal lat/long, then merged into verbCoor.","The verbatim original longitude of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem.",http://rs.tdwg.org/dwc/terms/#dwc:verbatimLongitude,,Location,,
+year,year,,"If eventDate is null, year-month-day will be used to","The four-digit year in which the Event occurred, according to the Common Era Calendar.",http://rs.tdwg.org/dwc/terms/#dwc:year,,Event,,
+occurrenceId,,,,,,,,,3
+collectorNumber,,recordedBy,,,,,,,20
+associatedOccurrences,,,,,,,,,28
+description,,,,,,,,,32
