@@ -61,6 +61,14 @@ img {
   max-width: 100%;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid gray;
+}
+
 td {
   vertical-align: top;
 }
