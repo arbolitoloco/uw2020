@@ -16,7 +16,7 @@ Record Type              | Value of `basisOfRecord`
 biological               | PreservedSpecimen
 object                   | MaterialSample
 photography or documents | HumanObservation
----------------------------------------------------
+<hr>
 
 The following table describes the field equivalencies for each major "subcollection", with performed adaptations:
 
