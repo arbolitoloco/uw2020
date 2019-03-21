@@ -81,4 +81,6 @@ RockSpecimen        | 220    | Subcategory | Minerals And Rocks | object | Geolo
 
 Last step was to upload specimen information with the now existing non-biological existing tree in Central Thesaurus.
 
+## Anthropology trees
+
 
