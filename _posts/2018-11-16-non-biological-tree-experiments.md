@@ -83,4 +83,56 @@ Last step was to upload specimen information with the now existing non-biologica
 
 ## Anthropology trees
 
+=======
+A preliminary tree was similarly created for Anthropology (as a Discipline), under the Object "taxon":
 
+sciname      | rankid | rankname   | parentstr
+-------------|--------|------------|-----------
+Anthropology | 10     | Discipline | Object
+
+Categories (genera) and subactegories (species) tentatively are:
+
+scinameinput | sciname | rankid | rankname | parentstr | object | discipline
+-------------|---------|--------|----------|-----------|--------|------------
+Bone | Bone | 180 | Category | Anthropology | Object | Anthropology
+Botanical | Botanical | 180 | Category | Anthropology | Object | Anthropology
+Ceramics | Ceramics | 180 | Category | Anthropology | Object | Anthropology
+Glass | Glass | 180 | Category | Anthropology | Object | Anthropology
+Metal | Metal | 180 | Category | Anthropology | Object | Anthropology
+Plastic | Plastic | 180 | Category | Anthropology | Object | Anthropology
+Shell | Shell | 180 | Category | Anthropology | Object | Anthropology
+Stone | Stone | 180 | Category | Anthropology | Object | Anthropology
+Chipped Stone  | Chipped Stone  | 220 | Subcategory | Stone | Object | Anthropology
+Groundstone | Groundstone | 220 | Subcategory | Stone | Object | Anthropology
+Pecked Stone | Pecked Stone | 220 | Subcategory | Stone | Object | Anthropology
+Unmodified Rock | Unmodified Rock | 220 | Subcategory | Stone | Object | Anthropology
+Complete Vessel | Complete Vessel | 220 | Subcategory | Ceramics | Object | Anthropology
+Mostly Complete Vessel | Mostly Complete Vessel | 220 | Subcategory | Ceramics | Object | Anthropology
+Gorget | Gorget | 220 | Subcategory | Shell | Object | Anthropology
+Hoe | Hoe | 220 | Subcategory | Shell | Object | Anthropology
+Shell Bead | Shell Bead | 220 | Subcategory | Shell | Object | Anthropology
+Miscellaneous Ornament | Miscellaneous Ornament | 220 | Subcategory | Shell | Object | Anthropology
+Polished | Polished | 220 | Subcategory | Bone | Object | Anthropology
+Incised/Engraved | Incised/Engraved | 220 | Subcategory | Bone | Object | Anthropology
+Tool | Tool | 220 | Subcategory | Bone | Object | Anthropology
+Bone Bead | Bone Bead | 220 | Subcategory | Bone | Object | Anthropology
+Bone Ornament | Bone Ornament | 220 | Subcategory | Bone | Object | Anthropology
+Burned Wood | Burned Wood | 220 | Subcategory | Botanical | Object | Anthropology
+Unburned Wood | Unburned Wood | 220 | Subcategory | Botanical | Object | Anthropology
+Matting | Matting | 220 | Subcategory | Botanical | Object | Anthropology
+Textile | Textile | 220 | Subcategory | Botanical | Object | Anthropology
+Botanical Ornament | Botanical Ornament | 220 | Subcategory | Botanical | Object | Anthropology
+Glass Bead | Glass Bead | 220 | Subcategory | Glass | Object | Anthropology
+Bottle | Bottle | 220 | Subcategory | Glass | Object | Anthropology
+Cup | Cup | 220 | Subcategory | Glass | Object | Anthropology
+Lamp | Lamp | 220 | Subcategory | Glass | Object | Anthropology
+Plate | Plate | 220 | Subcategory | Glass | Object | Anthropology
+Bowl | Bowl | 220 | Subcategory | Glass | Object | Anthropology
+Mirror | Mirror | 220 | Subcategory | Glass | Object | Anthropology
+Window | Window | 220 | Subcategory | Glass | Object | Anthropology
+Miscellaneous Curved | Miscellaneous Curved | 220 | Subcategory | Glass | Object | Anthropology
+Miscellaneous Flat | Miscellaneous Flat | 220 | Subcategory | Glass | Object | Anthropology
+Iron | Iron | 220 | Subcategory | Metal | Object | Anthropology
+Copper | Copper | 220 | Subcategory | Metal | Object | Anthropology
+Copper Alloy (Copper/Brass) | Copper Alloy (Copper/Brass) | 220 | Subcategory | Metal | Object | Anthropology
+Complete Vessel | Complete Vessel | 220 | Subcategory | Metal | Object | Anthropology
