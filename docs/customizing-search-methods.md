@@ -171,7 +171,23 @@ So, to customize the search methods, in summary:
 		</div>			
 		// End of example
 
-5. Open `js/symb/collections.harvestparams.js` and include the search field validation:
+5. Open `js/symb/collections.harvestparams.js` and include the search field and its validation:
+
+	- `function checkHarvestParamsForm(frm)`:
+
+			// Example using field "disposition"
+			//make sure they have filled out at least one field.
+			if((frm.taxa.value.trim() == '') && (frm.country.value.trim() == '') && (frm.state.value.trim() == '') && (frm.county.value.trim() == '') &&
+				(frm.local.value.trim() == '') && (frm.elevlow.value.trim() == '') && (frm.upperlat.value.trim() == '') && (frm.pointlat.value.trim() == '') &&
+				// Added field "occurrenceRemarks"
+				(frm.remarks.value.trim() == '') &&
+				// End of field "ocurrenceRemarks"
+				(frm.collector.value.trim() == '') && (frm.collnum.value.trim() == '') && (frm.eventdate1.value.trim() == '') && (frm.catnum.value.trim() == '') &&
+				(frm.typestatus.checked == false) && (frm.hasimages.checked == false) && (frm.hasgenetic.checked == false)){
+				alert("Please fill in at least one search parameter!");
+				return false;
+			}
+			// End of example
 
 	- `function setHarvestParamsForm()`:
 
