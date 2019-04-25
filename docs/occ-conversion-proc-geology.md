@@ -28,6 +28,7 @@ IDBY      | identifiedBy         | none, data is already up to standard
 IDDATE    | dateIdentified       | convert to YYYY-MM-DD format
 SPECIES   | sciname              | none, data is already up to standard
 
+
 The following DWC fields were added to the converted table, to improve data standards:
 
 Field         | Value
