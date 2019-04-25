@@ -59,6 +59,8 @@ Specimens are stored in Symbiota as occurrences. The main table containing speci
 
 - [Importing Occurrences - Data standards and methods](https://arbolitoloco.github.io/uw2020/docs/occurrence-import/)
 - Occurrence fields conversion procedures
+	- [Anthropology](https://arbolitoloco.github.io/uw2020/docs/occ-conversion-proc-anthro)
+	- [Entomology](https://arbolitoloco.github.io/uw2020/docs/occ-conversion-proc-entomo)
 	- [Geology](https://arbolitoloco.github.io/uw2020/docs/occ-conversion-proc-geology/)
 
 

@@ -5,11 +5,10 @@ author: "Laura"
 permalink: /docs/uw-biodiversity-data-mgmt/
 ---
 
-# University of Wisconsin Zoological Museum
+# Zoology - University of Wisconsin Zoological Museum
 
 - Department of Integrative Biology
 - Official website at https://uwzm.integrativebiology.wisc.edu/
-- Ca. ? specimens total
 - Collections digitized using custom MS Access. Transitioning into Specify.
 
 ## Main Collections
@@ -48,13 +47,13 @@ permalink: /docs/uw-biodiversity-data-mgmt/
 19. [Wisconsin Fish Distribution Maps](https://cida.usgs.gov/wdnr_fishmap)
 20. [Wisconsin's Rare Mussels and Clams](http://dnr.wi.gov/topic/endangeredresources/animals.asp?mode=list&grp=19)
 21. [Wisconsin Stream and River Flows](http://waterdata.usgs.gov/wi/nwis/current?type=flow)
+
 ------------------------------
 
-# Wisconsin State Herbarium
+# Botany - Wisconsin State Herbarium
 
 - Department of Botany
 - Official website at https://herbarium.wisc.edu/
-- Ca. 1.37 Mi specimens total
 - Collections digitized using Specify and Symbiota.
 
 ## Main Collections
@@ -80,13 +79,13 @@ permalink: /docs/uw-biodiversity-data-mgmt/
 9. [Online Virtual Flora of Wisconsin](http://wisflora.herbarium.wisc.edu/)
 10. [WIS Vascular Plants](http://specify.botany.wisc.edu/)
 11. [SEINet - Regional Networks of North American Herbaria Symbiota](http://swbiodiversity.org/seinet/)
+
 ------------------------------
 
-# Wisconsin Insect Research Collection
+# Entomology - Wisconsin Insect Research Collection
 
 - Department of Entomology
 - Official website at http://labs.russell.wisc.edu/wirc/
-- Ca. ? specimens total
 - Collections digitized using Specify.
 
 ## Main Collections
@@ -103,12 +102,12 @@ permalink: /docs/uw-biodiversity-data-mgmt/
 ## Portal
 
 1. [Wisconsin Insect Research Collection](http://labs.russell.wisc.edu/wirc/collections/)
+
 ------------------------------
 
-# Department of Anthropology
+# Anthropolog - Department of Anthropology
 
 - Official website at https://www.anthropology.wisc.edu/collections/
-- Ca. ? specimens total
 - Collections digitized using custom FileMaker Pro.
 
 ## Main Collections
@@ -126,10 +125,9 @@ There are no portals displaying specimens from this collection.
 
 ------------------------------
 
-# Geology
+# Geology - University of Wisconsin Geology Museum
 
 - Official website at http://geoscience.wisc.edu/museum/
-- Ca. ? specimens total
 - Collections digitized used custom PastPerfet, transitioning into eMU.
 
 ## Main Collections
